@@ -181,10 +181,10 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="glass-card success-layout">
+        <div className="glass-card success-layout animate-fade-in">
           {/* Left Side: Digital Letter */}
-          <div className="order-3 lg:order-1 flex justify-center">
-            <div className="digital-letter animate-fade-in-up">
+          <div className="order-2 lg:order-1">
+            <div className="digital-letter">
               <div className="letter-text">
                 "Que el amor perdure en nuestros corazones, que el tiempo nos junte más y que seamos felices construyéndonos para un futuro lleno de amor, unión, paciencia, respeto, lealtad y muchos recuerdos. Vivamos la vida intensamente, tomados de la mano, superando cada obstáculo y celebrando cada alegría. Eres mi lugar seguro, mi paz y mi mayor motivación. Gracias por ser parte de mi historia y por permitirme ser parte de la tuya. Este es solo el comienzo de nuestra gran aventura juntos. ¡Te amo!"
               </div>
@@ -192,31 +192,31 @@ function App() {
           </div>
 
           {/* Center Side: Success Message & Bears */}
-          <div className="order-2 lg:order-2 flex flex-col items-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-white text-center drop-shadow-lg title-animate">
+          <div className="order-1 lg:order-2 success-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg title-animate">
               ¡Sabía que dirías que sí! ❤️
             </h1>
             <img
               src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
               alt="Success Bears"
-              className="rounded-3xl shadow-2xl w-[280px] h-auto success-bears"
+              className="w-full max-w-[320px] h-auto success-bears"
             />
           </div>
 
           {/* Right Side: Persistent Photo Frame */}
-          <div className="order-1 lg:order-3 flex flex-col items-center space-y-4">
+          <div className="order-3 lg:order-3 flex flex-col items-center space-y-4">
             <div className="photo-frame">
               <img
                 src="nuestra-historia.jpg"
                 alt="DIEGO Y DAYANA"
-                className="w-full h-auto max-w-[250px] object-cover"
+                className="w-full h-auto max-w-[280px] object-cover"
               />
             </div>
-            <div className="text-center text-white">
-              <h2 className="text-2xl md:text-3xl font-bold couple-names drop-shadow-md">
+            <div className="text-center">
+              <h2 className="text-2xl md:text-3xl font-bold couple-names drop-shadow-md underline decoration-pink-300/30">
                 DIEGO Y DAYANA
               </h2>
-              <p className="text-lg md:text-xl anniversary-date mt-1 drop-shadow-sm">
+              <p className="anniversary-date">
                 25 / 07 / 2023
               </p>
             </div>
