@@ -165,7 +165,7 @@ function App() {
           <div className="flex flex-col items-center space-y-6 order-1 lg:order-2">
             <div className="photo-frame">
               <img
-                src="/pareja.jpg"
+                src="https://r.jina.ai/i/0f52d431057e4e11a3db63116fc8c460"
                 alt="DIEGO & DAYANA"
                 className="w-full h-auto max-w-[300px] object-cover"
                 onError={(e) => {
@@ -189,7 +189,7 @@ function App() {
             ¡Sabía que dirías que sí! ❤️
           </h1>
           <img
-            src="/nuestra-foto.jpg"
+            src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
             alt="Success"
             className="rounded-2xl shadow-2xl h-[250px] object-cover"
           />
