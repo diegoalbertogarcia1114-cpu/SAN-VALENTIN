@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import JSConfetti from 'js-confetti';
 
 import mixpanel from './lib/mixpanel';
+import './App.css';
 
 function App() {
   const jsConfetti = new JSConfetti();
