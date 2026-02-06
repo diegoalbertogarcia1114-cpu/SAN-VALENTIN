@@ -1,0 +1,17 @@
+{
+    "name": "SAN VALENTIN - DIEGO & DAYANA",
+    "short_name": "AMOR",
+    "description": "Una aplicación especial para mi San Valentín",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#ffcbd5",
+    "theme_color": "#ff4e50",
+    "icons": [
+        {
+            "src": "nuestra-historia.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
+    ]
+}
