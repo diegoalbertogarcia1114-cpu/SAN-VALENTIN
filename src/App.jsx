@@ -165,7 +165,7 @@ function App() {
           <div className="flex flex-col items-center space-y-6 order-1 lg:order-2">
             <div className="photo-frame">
               <img
-                src="/pareja.jpg"
+                src="https://r.jina.ai/i/0f52d431057e4e11a3db63116fc8c460"
                 alt="DIEGO & DAYANA"
                 className="w-full h-auto max-w-[300px] object-cover"
                 onError={(e) => {
