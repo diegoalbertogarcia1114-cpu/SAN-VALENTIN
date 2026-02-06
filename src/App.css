@@ -4,63 +4,91 @@
   width: 100%;
 }
 
+/* Glassmorphism & High-end Aesthetics */
 .glass-card {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-  padding: 2.5rem;
-  max-width: 900px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+  max-width: 1000px;
   width: 95%;
   margin: 0 auto;
-  transition: all 0.3s ease;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .photo-frame {
-  border: 12px solid white;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border: 15px solid #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   transform: rotate(-3deg);
-  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-  background: white;
-  padding: 10px;
-  overflow: hidden;
-  border-radius: 4px;
+  transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.photo-frame::after {
+  content: '❤️';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 2rem;
+  animation: heartFloat 3s ease-in-out infinite;
 }
 
 .photo-frame:hover {
-  transform: rotate(0deg) scale(1.05);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  transform: rotate(0deg) scale(1.08);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
 }
 
 .couple-names {
-  font-family: 'Playfair Display', serif;
-  /* Elegant serif font */
-  letter-spacing: 3px;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  background: linear-gradient(to right, #ffffff, #ffb6c1);
+  background: linear-gradient(135deg, #fff 0%, #ffcbd5 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .anniversary-date {
   font-weight: 400;
-  opacity: 1;
   color: #ffb6c1;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+  margin-top: 10px;
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+@keyframes heartFloat {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-10px) scale(1.1);
+  }
 }
 
 .btn-premium {
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #ff4e50, #f9d423);
+  border: none;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: 0 10px 20px rgba(255, 78, 80, 0.3);
+  color: white;
 }
 
 .btn-premium:hover {
-  transform: scale(1.05) translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(255, 78, 80, 0.4);
 }
 
 .title-animate {
