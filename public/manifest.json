@@ -1,17 +1,29 @@
 {
+    "id": "com.diego.dayana.valentine",
     "name": "SAN VALENTIN - DIEGO & DAYANA",
     "short_name": "AMOR",
-    "description": "Una aplicación especial para mi San Valentín",
-    "start_url": "./",
+    "description": "Una aplicación especial personalizada para mi San Valentín",
+    "start_url": "./index.html",
     "display": "standalone",
+    "orientation": "portrait",
     "background_color": "#ffcbd5",
     "theme_color": "#ff4e50",
+    "categories": [
+        "lifestyle",
+        "romance"
+    ],
     "icons": [
+        {
+            "src": "nuestra-historia.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg",
+            "purpose": "any"
+        },
         {
             "src": "nuestra-historia.jpg",
             "sizes": "512x512",
             "type": "image/jpeg",
-            "purpose": "any maskable"
+            "purpose": "any"
         }
     ]
 }
