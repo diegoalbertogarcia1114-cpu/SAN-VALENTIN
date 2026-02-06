@@ -165,7 +165,7 @@ function App() {
           <div className="flex flex-col items-center space-y-6 order-1 lg:order-2">
             <div className="photo-frame">
               <img
-                src="https://r.jina.ai/i/0f52d431057e4e11a3db63116fc8c460"
+                src="/pareja.jpg"
                 alt="DIEGO & DAYANA"
                 className="w-full h-auto max-w-[300px] object-cover"
                 onError={(e) => {
@@ -175,9 +175,9 @@ function App() {
             </div>
             <div className="text-center text-white">
               <h2 className="text-3xl md:text-4xl font-bold couple-names drop-shadow-md">
-                DIEGO & DAYANA
+                DIEGO Y DAYANA
               </h2>
-              <p className="text-xl md:text-2xl anniversary-date mt-2 opacity-90 drop-shadow-sm font-light">
+              <p className="text-xl md:text-2xl anniversary-date mt-2 drop-shadow-sm">
                 25 / 07 / 2023
               </p>
             </div>
@@ -189,7 +189,7 @@ function App() {
             ¡Sabía que dirías que sí! ❤️
           </h1>
           <img
-            src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
+            src="/nuestra-foto.jpg"
             alt="Success"
             className="rounded-2xl shadow-2xl h-[250px] object-cover"
           />
